@@ -2,9 +2,9 @@
 
 use App\Providers;
 
-// $stripe = resolve('App\Stripe');
+$stripe = app('App\Stripe');
 
-// dd($stripe);
+dd($stripe);
 //use App\Task;
 /*
 |--------------------------------------------------------------------------

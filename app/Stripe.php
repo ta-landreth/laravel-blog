@@ -6,9 +6,9 @@ class Stripe
 {
     protected $key;
     
-    public function __construct($apikey)
+    public function __construct($key)
     {
-        $this->key = $apikey;
+        $this->key = $key;
     }
 
 }
