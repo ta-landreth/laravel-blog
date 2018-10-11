@@ -3,8 +3,10 @@
 use App\Providers;
 
 $stripe = app('App\Stripe');
+    //or resolve()
+    //or App::make
 
-dd($stripe);
+//dd($stripe);
 //use App\Task;
 /*
 |--------------------------------------------------------------------------
